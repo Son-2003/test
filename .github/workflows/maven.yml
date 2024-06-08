@@ -22,4 +22,4 @@ jobs:
         distribution: 'adopt'
         java-version: '17'
     - name: Build with Maven
-      run: mvn clean install -f test/pom.xml
+      run: mvn clean install -f pom.xml
